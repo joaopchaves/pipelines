@@ -1,4 +1,4 @@
-pipeline{
+node("windows-agent") {
     stages{
         stage('Hello'){
             steps{
