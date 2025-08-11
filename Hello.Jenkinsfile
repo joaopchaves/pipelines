@@ -1,6 +1,4 @@
-pipeline {
-    agent { label 'windows-agent' }
-
+node("windows-agent") {
     stages {
         stage('Hello') {
             steps {
